@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.headerAndNav{
+    position: fixed;
+    background-color: #eee;
+    z-index: 100; 
+    top: 0;
+    width: 100%;
+    right: 0;
+}
+header{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form_follower{
+    position: absolute;
+    left: 10%;
+}
+
+.form_follower span{
+    color: #565C62;
+}
+
+.form_follower i{
+    margin-left: 5px;
+}
+
+.form_search{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 63%;
+
+}
+.form_search input{
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 0px;
+    font-size: 15px;
+}
+.form_search i{
+    padding: 12px;
+    border: none;
+    background-color: rgb(176, 171, 171);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 50px;
+    
+}
+
+
+.formLoginAndCart{
+    left: 80%;
+    position: absolute;
+}
+.iconLogin ,a .iconCart{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.formLoginAndCart .quantity{
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 90%;
+}
+
+nav{
+    position: fixed;;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(221, 218, 218);
+    /* box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);  */
+    /* box-shadow: 1px 1px 10px rgba(205, 202, 202, 0.8);  */
+    transition: top 0.3s;
+    width: 100%;
+    background-color: #eee;
+}
+nav li{
+    list-style: none;
+    margin:  0 40px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #565C62;
+    font-weight: 520;
+}
+nav li a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+
+
+.content{
+    margin-top: 120px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* .listProduct{
+    width: 100%;
+    height: 100%;
+} */
+ .thumb img{
+    width: 100%;
+    height: 100%;
+ }
+
+
+.sanpham .thumb img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.sanpham{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.thongtin{
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    margin-top: 50px;
+    
+}
+.sanpham .product_name{
+    margin-top: 20px;
+    text-align: center;
+}
+.thongtin_title{
+    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
+    color: #565C62;
+    margin-bottom: 25px;
+
+}
+.thongtin_sanpham{
+    font-size: 20px;
+    color: #565C62;
+    text-align: justify;
+}
+.sanpham .product_name a{
+    text-decoration: none;
+    color: #565C62;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+.sanpham .product_name a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+.sanpham .product_desc{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+
+}
+
+.sanpham button{
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #282b2e;
+    color: whitesmoke;
+    padding: 50px 0;
+    
+}
+.footerContainer{
+    display: flex;
+
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.form_email{
+    display: flex;
+    justify-content: center;
+        
+}
+.form_email input{
+    padding: 10px;
+    border: none;
+    width: 300px;
+    margin-right: 0px;
+    font-size: 10px;
+    border: 1px solid white;
+
+}
+.form_email button{
+    padding: 10px;
+    border: none;
+    background-color: #282b2e;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.thuonghieu,
+.hotro,
+.hethong {
+    font-size: 15px;
+    flex: 1;
+    margin: 0 10px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

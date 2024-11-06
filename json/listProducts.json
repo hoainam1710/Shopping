@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Dung dịch loại bỏ tế bào chết Skin Perfecting 2% BHA Liquid Exfoliant 118ml",
+        "price": "200",
+        "image": "/img/sp1.png"
+    }, 
+    {
+        "id": 2,
+        "name": "Loại bỏ tế bào chết toàn thân Weightless Body Treatment 2% BHA 210ml",
+        "price": "100",
+        "image": "/img/sp2.png"
+    },
+    {
+        "id": 3,
+        "name": "Tinh chất thu nhỏ lỗ chân lông tối ưu Clinical Niacinamide 20% Treatment 130ml",
+        "price": "120",
+        "image": "/img/sp3.png"
+    },
+    {
+        "id": 4,
+        "name": "Loại bỏ tế bào chết làm sáng da Skin Revealing Body Lotion 10% AHA 230ml Retinol",
+        "price": "80",
+        "image": "/img/sp4.png"
+    },
+    {
+        "id": 5,
+        "name": "Tinh chất làm mờ nám và nếp nhăn Clinical 1% Retinol Treatment 30ml Finish Moisture",
+        "price": "95",
+        "image": "/img/sp5.png"
+    },
+    {
+        "id": 6,
+        "name": "Tinh chất thu nhỏ lỗ chân lông và làm sáng da 10% Niacinamide Booster 120ml Invisible Gel",
+        "price": "120",
+        "image": "/img/sp6.png"
+    },
+    {
+        "id": 7,
+        "name": "Gel dưỡng ẩm kiểm soát dầu cho da thoáng mịn Skin Balancing Invisible Finish Moisture Gel",
+        "price": "152",
+        "image": "/img/sp7.png"
+    },
+    {
+        "id": 8,
+        "name": "Kem dưỡng chống nắng Resist Super-Light Daily Wrinkle Defense SPF 60ml Invisible Gel",
+        "price": "122",
+        "image": "/img/sp8.png"
+    }
+
+  
+]
